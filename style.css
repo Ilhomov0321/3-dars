@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.humburer-menu {
+  max-width: 60rem;
+}
+
+.humburer-menu a {
+  padding: 2rem;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 2.4rem;
+  line-height: 1.5em;
+  font-weight: 76;
+}
+
+.humburer-menu a:hover {
+  background-color: #ccc;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 3;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .humburger a {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  padding: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav .humburger .humburger-div {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  display: inline-block;
+  background-color: black;
+  margin: 3px;
+  width: 20px;
+  height: 3px;
+}
+
+nav p {
+  padding: 1.6rem;
+  font-size: 2.4rem;
+  line-height: 1.5em;
+}
+
+nav .humburger a:hover {
+  background-color: #dadada;
+}
+
+section {
+  margin: 100px auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+section .first-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .first-container div {
+  max-width: 270px;
+  padding: 0 8px;
+}
+
+section .first-container img {
+  width: 100%;
+}
+
+section .first-container h3 {
+  margin: 1rem 0;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+section .first-container p {
+  line-height: 1.5em;
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+}
+
+section .last-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .last-container div {
+  max-width: 270px;
+  padding: 0 8px;
+}
+
+section .last-container img {
+  width: 100%;
+}
+
+section .last-container h3 {
+  margin: 1rem 0;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+section .last-container p {
+  line-height: 1.5em;
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3.2rem 0;
+}
+
+footer a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  padding: 8px 16px;
+}
+
+footer a:hover {
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    padding: 1rem;
+  }
+  section .first-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem;
+  }
+  section .first-container div {
+    max-width: 100%;
+  }
+  section .last-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 100%;
+    padding: 1rem;
+  }
+  section .last-container div {
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
